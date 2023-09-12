@@ -51,10 +51,10 @@ array = [[0,0,0],
 #             res.append(j)
 # print(res)
 
-for i in range(len(array)):
-    for j in range(len(array[i])):
-        if array[i][j]==1:
-            array[i][j]=0
-        elif array[i][j]==0:
-            array[i][j]=1
-print(array)
+# for i in range(len(array)):
+#     for j in range(len(array[i])):
+#         if array[i][j]==1:
+#             array[i][j]=0
+#         elif array[i][j]==0:
+#             array[i][j]=1
+# print(array)

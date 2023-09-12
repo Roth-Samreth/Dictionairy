@@ -10,7 +10,7 @@ res = []
 for i in range(len(studentRecord)):
     sum = 0
     if studentRecord[i]["class"]=="wep-a":
-        sum = studentRecord[i]['algorithm']+studentRecord[i]['html']
+        sum += studentRecord[i]['algorithm']
         avg = sum/2
         res.append(studentRecord[i]["studentName"]+": "+str(avg))
 print(res)
