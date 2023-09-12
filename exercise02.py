@@ -1,0 +1,142 @@
+# Ex1:
+# number of array: 3
+# > [3, 3]
+# > [1, 3, 4]
+# > [4, 5, 9, 1]
+
+# output:
+# 6
+# 8
+# 19
+# --------------------
+# Ex2:
+# number of array: 2
+# > [3, 2]
+# > [1, 3, 4]
+
+# output:
+# [2, 3]
+# [4, 3, 1]
+# -------------------
+# Ex3:
+# number of array: 2
+# > [3, 2]
+# > [1, 3, 4]
+
+# output:
+# 2.5
+# 2.66666666
+# -----------------
+# Ex4:
+# number of array: 2
+# > [3, 2]
+# > [1, 3, 4]
+
+# output:
+# [9, 4]
+# [1, 9, 16]
+# ----------------
+# Ex5:
+# Find index of number in list (each value is unique)
+# Test case 1:
+
+# Enter array: [1,2,4,10,9]
+# Enter number: 10
+# ouput
+# 10 at position 3
+
+# Test case 2:
+
+# Enter array: [5,4,10,3]
+# Enter number: 5
+# ouput
+# 5 at position 0
+
+# Test case 3:
+
+# Enter array: [5,4,10,3]
+# Enter number: 8
+# ouput
+# 8 not found in list
+
+# ----------------
+# Ex6:
+# Count number in list (each value is unique)
+# Test case 1:
+
+# Enter array: [1,2,4,10,9]
+# Enter number: 10
+# ouput
+# number 10 is 1
+
+# Test case 2:
+
+# Enter array: [5,4,5, 5, 5, 10,3]
+# Enter number: 5
+# ouputr: 
+# number 5 is 4
+
+# Test case 3:
+
+# Enter array: [5,4,10,3]
+# Enter numbe 8
+# ouput
+# number 8 is 0
+# --------------
+# Ex7:
+# Count number 10 in list of array 2D
+# Test case 1:
+
+# Enter array: [[1, 2, 4, 5], [14, 16, 10, 11], [10, 9, 10, 10]]
+# ouput
+# number 10 is 4
+
+# Test case 2:
+# Enter array: [[1, 2, 4, 5], [14, 16, 8, 11], [8, 9, 8, 8]]
+# ouput
+# number 10 is 0
+# -----------------------
+# Ex8
+# Search students from list of array 2D
+# students = [
+#   ['bopha','2024A','kandal'],
+#   ['romdule','2024C','kompot'],
+#   ['kaka','2024C','Rathanakiri'],
+#   ['chompey','2024B','Siem Riep'],
+#   ['chompa','2024B','Battambang']
+# ]
+# #1 - how many students from class A? B? and C?
+# #2 - Where kaka come from?
+# #3 - Which class Chompey study?
+# #4 - Replace Chompa province to Prey Veng
+
+# Ex9
+# From list of array 2D
+# fruits = [
+#   ['banana','coconut','mango'],
+#   ['jackfruit','banana','mango'],
+#   ['papaya','apple','orange'],
+#   ['mango','orange','Mango'],
+#   ['banana','mango','orange']
+# ]
+# #1 - How many letter "A" from array 2D (function)
+# #2 - How many banana in list (function)
+# #3 - How many mango in list (function)
+# #4 - How many orange in list (function)
+# #5 - Replace mango by # sign
+
+# Ex10
+# From list of array 2D
+# numbers = [
+#   [1,3,4, 4],
+#   [3, 4, 0, 4]
+#   [5, 6, 9, 0]
+#   [4, 5, 9, 7]
+# ]
+# #1 - How many number 4 from array 2D (function)
+# #2 - Sum each list of array in array 2D (function)
+# output: [12, 11, 20, 25]
+# #3 - Sum only number 4 in list 
+# #4 - Replace number 0 with 99 (function)
+# #5 - where find index of 7 in list 
+# output: [3][3]
