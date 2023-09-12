@@ -4,17 +4,12 @@ studentRecord = [
     {"studentName":"Villa","class":" wep-a","algorithm":96,"html":92},
     {"studentName":"mengheang","class":"wep-a","algorithm":66,"html":54},
 ]
-def countA(arr):
-    sum = 0
-    for i in range(len(studentRecord)):
-        if studentRecord[i]["class"]=="wep-a":
-            sum += 1
-    return sum
-wepA = countA(studentRecord)
+wepA = 0
 sum = 0
 avg  = 0
 for i in range(len(studentRecord)):
     if studentRecord[i]["class"]=="wep-a":
+        wepA+=1
         sum += studentRecord[i]['algorithm']
 avg = sum/wepA
 print(avg)
