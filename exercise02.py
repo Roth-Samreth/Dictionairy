@@ -162,19 +162,44 @@
 #   ['chompa','2024B','Battambang']
 # ]
 # #1 - how many students from class A? B? and C?
+# classA = 0
+# classB = 0
+# classC = 0
+# for i in range(len(students)):
+#     if students[i][1]=="2024A":
+#         classA+=1
+#     elif students[i][1]=="2024B":
+#         classB+=1
+#     elif students[i][1]=="2024C":
+#         classC+=1
+# print(classA,classB, classC)
+
 # #2 - Where kaka come from?
+
+# for i in range(len(students)):
+#     if students[i][0]=="kaka":
+#         print(students[i][0]+" is from "+students[i][len(students[i])-1])
+
 # #3 - Which class Chompey study?
+
+# for i in range(len(students)):
+#     if students[i][0]=="chompey":
+#         print(students[i][0]+" is from class "+students[i][1])
 # #4 - Replace Chompa province to Prey Veng
+# for i in range(len(students)):
+#     if students[i][0]=="chompa":
+#         students[i][len(students[i])-1]= "preyveng"
+# print(students)
 
 # Ex9
 # From list of array 2D
-# fruits = [
-#   ['banana','coconut','mango'],
-#   ['jackfruit','banana','mango'],
-#   ['papaya','apple','orange'],
-#   ['mango','orange','Mango'],
-#   ['banana','mango','orange']
-# ]
+fruits = [
+  ['banana','coconut','mango'],
+  ['jackfruit','banana','mango'],
+  ['papaya','apple','orange'],
+  ['mango','orange','Mango'],
+  ['banana','mango','orange']
+]
 # #1 - How many letter "A" from array 2D (function)
 # #2 - How many banana in list (function)
 # #3 - How many mango in list (function)
@@ -184,7 +209,7 @@
 # Ex10
 # From list of array 2D
 # numbers = [
-#   [1,3,4, 4],
+#   [1, 3, 4, 4],
 #   [3, 4, 0, 4]
 #   [5, 6, 9, 0]
 #   [4, 5, 9, 7]
