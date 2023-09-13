@@ -4,6 +4,18 @@
 # > [1, 3, 4]
 # > [4, 5, 9, 1]
 
+# numarray = int(input())
+# res = []
+# for i in range(numarray):
+#     array = eval(input())
+#     res.append(array)
+# print(res)
+# for j in range(len(res)):
+#     sum = 0
+#     for k in range(len(res[j])):
+#         sum+=res[j][k]
+#     print(sum)
+
 # output:
 # 6
 # 8
@@ -13,7 +25,12 @@
 # number of array: 2
 # > [3, 2]
 # > [1, 3, 4]
-
+# numarray = int(input())
+# res = []
+# for i in range(numarray):
+#     array = eval(input())
+#     res.append(array)
+#     print(res)
 # output:
 # [2, 3]
 # [4, 3, 1]
@@ -22,7 +39,19 @@
 # number of array: 2
 # > [3, 2]
 # > [1, 3, 4]
-
+# numarray = int(input())
+# res = []
+# avg = 0
+# for i in range(numarray):
+#     array = eval(input())
+#     res.append(array)
+# print(res)
+# for j in range(len(res)):
+#     sum = 0
+#     for k in range(len(res[j])):
+#         sum+=res[j][k]
+#     avg = sum/len(res[j])
+#     print(avg)
 # output:
 # 2.5
 # 2.66666666
@@ -31,7 +60,12 @@
 # number of array: 2
 # > [3, 2]
 # > [1, 3, 4]
-
+# numarray = int(input())
+# res = []
+# for i in range(numarray):
+#     array = eval(input())
+#     res.append(array)
+#     print(res)
 # output:
 # [9, 4]
 # [1, 9, 16]
@@ -39,7 +73,7 @@
 # Ex5:
 # Find index of number in list (each value is unique)
 # Test case 1:
-
+#
 # Enter array: [1,2,4,10,9]
 # Enter number: 10
 # ouput
@@ -58,7 +92,13 @@
 # Enter number: 8
 # ouput
 # 8 not found in list
-
+# arr = eval(input())
+# num = int(input())
+# res = str(num)+" is not found."
+# for i in range(len(arr)):
+#     if arr[i]==num:
+#         res = str(num)+" is at position "+str(i)
+# print(res)
 # ----------------
 # Ex6:
 # Count number in list (each value is unique)
@@ -82,12 +122,28 @@
 # Enter numbe 8
 # ouput
 # number 8 is 0
+# arr = eval(input())
+# num = int(input())
+# res = 0
+# for i in range(len(arr)):
+#     if arr[i]==num:
+#         res+=1
+# print(res)
 # --------------
+
 # Ex7:
 # Count number 10 in list of array 2D
 # Test case 1:
 
 # Enter array: [[1, 2, 4, 5], [14, 16, 10, 11], [10, 9, 10, 10]]
+# arr = eval(input())
+# num = int(input())
+# res = 0
+# for i in range(len(arr)):
+#     for j in range(len(arr[i])):
+#         if arr[i][j]==num:
+#             res+=1
+# print(res)
 # ouput
 # number 10 is 4
 
