@@ -193,31 +193,120 @@
 
 # Ex9
 # From list of array 2D
-fruits = [
-  ['banana','coconut','mango'],
-  ['jackfruit','banana','mango'],
-  ['papaya','apple','orange'],
-  ['mango','orange','Mango'],
-  ['banana','mango','orange']
-]
+# fruits = [
+#   ['banana','coconut','mango'],
+#   ['jackfruit','banana','mango'],
+#   ['papaya','apple','orange'],
+#   ['mango','orange','Mango'],
+#   ['banana','mango','orange']
+# ]
 # #1 - How many letter "A" from array 2D (function)
+
+# def countA(arr):
+#   countA = 0
+#   for i in range(len(arr)):
+#     for j in range(len(arr[i])):
+#         for k in range(len(arr[i])):
+#             if arr[i][j][k]== "a":
+#                 countA +=1
+#   return countA
+# print(countA(fruits))
+
 # #2 - How many banana in list (function)
-# #3 - How many mango in list (function)
+
+# def countBanana(arr):
+#     countBanana = 0
+#     for i in range(len(arr)):
+#         for j in range(len(arr[i])):
+#             if arr[i][j] == "banana":
+#                 countBanana+=1
+#     return countBanana
+# print(countBanana(fruits))
+
+#3 - How many mango in list (function)
+
+# def countMango(arr):
+#     countMango= 0
+#     for i in range(len(arr)):
+#         for j in range(len(arr[i])):
+#             if arr[i][j] == "mango":
+#                 countMango+=1
+#     return countMango
+# print(countMango(fruits))
+
 # #4 - How many orange in list (function)
+
+# def countOrange(arr):
+#     countOrange= 0
+#     for i in range(len(arr)):
+#         for j in range(len(arr[i])):
+#             if arr[i][j] == "orange":
+#                 countOrange+=1
+#     return countOrange
+# print(countOrange(fruits))
+
 # #5 - Replace mango by # sign
+
+# def countOrange(arr):
+#     countOrange= 0
+#     for i in range(len(arr)):
+#         for j in range(len(arr[i])):
+#             if arr[i][j] == "orange":
+#                 countOrange+=1
+#     return countOrange
+# print(countOrange(fruits))
 
 # Ex10
 # From list of array 2D
-# numbers = [
-#   [1, 3, 4, 4],
-#   [3, 4, 0, 4]
-#   [5, 6, 9, 0]
-#   [4, 5, 9, 7]
-# ]
+numbers = [
+  [1, 3, 4, 4],
+  [3, 4, 0, 4],
+  [5, 6, 9, 0],
+  [4, 5, 9, 7]
+]
 # #1 - How many number 4 from array 2D (function)
+
+# def count4(arr):
+#     count4= 0
+#     for i in range(len(arr)):
+#         for j in range(len(arr[i])):
+#             if arr[i][j] == 4:
+#                 count4+=1
+#     return count4
+# print(count4(numbers))
+
 # #2 - Sum each list of array in array 2D (function)
+
+# def count4(arr):
+#     res = []
+#     for i in range(len(arr)):
+#         sum = 0
+#         for j in range(len(arr[i])):
+#            sum+=arr[i][j]
+#         res.append(sum)
+#     return res
+# print(count4(numbers))
+
 # output: [12, 11, 20, 25]
 # #3 - Sum only number 4 in list 
+# def count4(arr):
+#     count4= 0
+#     for i in range(len(arr)):
+#         for j in range(len(arr[i])):
+#             if arr[i][j] == 4:
+#                 count4+=1
+#     return count4
+# print(count4(numbers))
+
 # #4 - Replace number 0 with 99 (function)
+# def count4(arr):
+#     count4= 0
+#     for i in range(len(arr)):
+#         for j in range(len(arr[i])):
+#             if arr[i][j] == 4:
+#                 count4+=1
+#     return count4
+# print(count4(numbers))
+
 # #5 - where find index of 7 in list 
 # output: [3][3]
