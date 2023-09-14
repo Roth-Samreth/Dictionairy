@@ -35,27 +35,46 @@
 #
 scoreList = [
  {"name": "Bunthoeun",
-"score": 76},
+"score": 99},
 {"name": "Kunthy",
-"score": 80},
+"score": 100},
  {"name": "Sreymom",
 "score": 95}
 ]
+def findMax(dic):
+    maxScore = scoreList[0]['score']
+    i = 0
+    while i < len(scoreList):
+        if maxScore<scoreList[i]['score']:
+            maxScore= scoreList[i]['score']
+        res = maxScore
+        i+=1
+    return res
+
 res = ""
 res1 = ""
-above75 = False
 i = 0
 max =  True
-maxScore = scoreList[0]['score']
+maxScore = findMax(scoreList)
 while i < len(scoreList):
-    if maxScore<scoreList[i]['score']:
-        maxScore= scoreList[i]['score']
+    if scoreList[i]['score'] == maxScore:
         res = scoreList[i]['name']+ " is the best student with the score of "+str(maxScore)
-    elif scoreList[i]['score']>75:
+    elif scoreList[i]['score']>75 and scoreList[i]['score'] <maxScore:
         res1 = "All student have score above 75"
-        above75 = True
     else:
-        res1 = "Not all Student have score above 75"
+        res1 = " "
     i+=1
 print(res)
 print(res1)
+
+
+# ini_dictionary1 = {"2021A": 20, "2021B": 30, "2021C": 15 }
+# ini_dictionary2 = {"2021A": 15, "2021C": 10, "2021D": 99 }
+# final_dictionary = {}
+# for key in ini_dictionary1:
+# 	final_dictionary[key] = ini_dictionary1[key] + ini_dictionary2.get(key, 0)
+# for key in ini_dictionary2:
+# 	if key not in final_dictionary:
+# 		final_dictionary[key] = ini_dictionary2[key]
+
+# print("final dictionary", str(final_dictionary))

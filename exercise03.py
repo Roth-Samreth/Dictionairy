@@ -105,20 +105,32 @@
 # Ex7 - Array
 # # Array to object - counting character
 # input: ['banana','coconut', 'mango', 'orange']
-# output: 
+# output:
+#  
+# text = ['banana','coconut', 'mango', 'orange']
+# dic = {}
+# for i in range(len(text)):
+#     dic[text[i]]= len(text[i])
+# print(dic)
+
+# [
+#   {0: 'banana',1: 'coconut',2: 'mango',3: 'orange'}
+# ]
 # [
 #   {'banana':6,'coconut':7,'mango': 5,'orange': 6}
 # ]
 # --------------
 # Ex8 - Dictionary or object
-# fruit_stock = [
-#   {'id': 1, 'name': 'Coconut', 'quatity': 3, 'price': 4000},
-#   {'id': 2, 'name': 'Banana', 'quatity': 0, 'price': 2500},
-#   {'id': 3, 'name': 'Mango', 'quatity': 23, 'price': 2000},
-#   {'id': 4, 'name': 'Orange', 'quatity': 0, 'price': 5000},
-#   {'id': 5, 'name': 'Apple', 'quatity': 5, 'price': 3000},
-#   {'id': 6, 'name': 'Jackfruit', 'quatity': 13, 'price': 6000},
-# ]
+
+fruit_stock = [
+  {'id': 1, 'name': 'Coconut', 'quatity': 3, 'price': 4000},
+  {'id': 2, 'name': 'Banana', 'quatity': 0, 'price': 2500},
+  {'id': 3, 'name': 'Mango', 'quatity': 23, 'price': 2000},
+  {'id': 4, 'name': 'Orange', 'quatity': 0, 'price': 5000},
+  {'id': 5, 'name': 'Apple', 'quatity': 5, 'price': 3000},
+  {'id': 6, 'name': 'Jackfruit', 'quatity': 13, 'price': 6000},
+]
+
 # #1 - How many fruit have price > 3000
 # {
 #   'numberOfruit': 3,
