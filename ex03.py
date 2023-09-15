@@ -37,7 +37,7 @@ scoreList = [
  {"name": "Bunthoeun",
 "score": 99},
 {"name": "Kunthy",
-"score": 100},
+"score": 35},
  {"name": "Sreymom",
 "score": 95}
 ]
