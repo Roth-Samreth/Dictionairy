@@ -132,12 +132,32 @@ fruit_stock = [
 ]
 
 # #1 - How many fruit have price > 3000
+# res = {}
+# count = 0
+# name = []
+# for i in range(len(fruit_stock)):
+#     if fruit_stock[i]['price']<3000:
+#         count+=1
+#         name.append(fruit_stock[i]['name'])
+# res['numberOffruit']=count
+# res['name']=name
+# print(res)
+
+
 # {
 #   'numberOfruit': 3,
 #   'names': ['Coconut','Orange', 'Jackfruit']
 # }
 # --------------------
 # #2 - How many fruit have price < 5000
+# 
+# name = []
+# for i in range(len(fruit_stock)):
+#   res = {}
+#   if fruit_stock[i]['price']<5000:
+#     res['name']=fruit_stock[i]['name']
+#     name.append(res)
+# print(name)
 # [
 #   {'name': 'Coconut'},
 #   {'name': 'Banana'},
@@ -146,6 +166,14 @@ fruit_stock = [
 # ]
 # -------------------
 # #3 - Which fruit doens't have in stock
+# name = []
+# for i in range(len(fruit_stock)):
+#   res = {}
+#   if fruit_stock[i]['quatity']==0:
+#     res['name']=fruit_stock[i]['name']
+#     res['quantity']=fruit_stock[i]['quatity']
+#     name.append(res)
+# print(name)
 # [
 #   {'name': 'Banana', 'quatity': 0},
 #   {'name': 'Orange', 'quatity': 0}
