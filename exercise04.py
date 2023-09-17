@@ -1,33 +1,81 @@
 # Ex1 - Array
 # #Counter letter
-# input1: ['banana','coconut','mango']
-# input2: ['a','o']
+# input1 = ['banana','coconut','mango']
+# input2 = ['a','o']
 # output:
 # {'a': 4, 'o': 3}
+# def countLetter(arr,char):
+#     count = 0
+#     for i in range(len(arr)):
+#         for j in range(len(arr[i])):
+#             if arr[i][j]==char:
+#                 count+=1
+#     return count
+# dic = {}
+# for each in input2:
+#     dic[each]=countLetter(input1,each)
+# print(dic)
+
 # --------------
 # Ex2 - Array
 # # Find index
-# input1: [3, 3, 4, 5, 6, 6]
-# input2: [3, 4, 6]
+# input1 = [3, 3, 4, 5, 6, 6]
+# input2 = [3, 4, 6]
 # ouput: {3: "01", 4: "2", 6:"45"}
+# def countLetter(arr,char):
+#     count = ""
+#     for i in range(len(arr)):
+#         if arr[i]==char:
+#             count+=str(i)
+#     return count
+# dic = {}
+# for each in input2:
+#     dic[each]=countLetter(input1,each)
+# print(dic)
 # ------------
 # Ex3 - Array
 # #Find index
-# input1: [3, 3, 4, 5, 6, 6]
-# input2: [3, 4, 6]
+# input1= [3, 3, 4, 5, 6, 6]
+# input2= [3, 4, 6]
 # ouput: {3: [0, 1], 4: [2], 6:[4, 5]}
+# def countLetter(arr,char):
+#     count = []
+#     for i in range(len(arr)):
+#         if arr[i]==char:
+#             count.append(i)
+#     return count
+# dic = {}
+# for each in input2:
+#     dic[each]=countLetter(input1,each)
+# print(dic)
+
 # -----------
 # Ex4 - Array
 # #Get value by index
-# input1: ['banana','coconut','mango']
-# input2: [0, 2]
+# input1 = ['banana','coconut','mango']
+# input2 = [0, 2]
 # output:
 # {0: 'banana', 2: 'mango'}
+# dic = {}
+# for each in input2:
+#     dic[each]=input1[each]
+# print(dic)
 # --------------
 # Ex5 - Array
 # #Reverse text by index
-# input1: ['banana','coconut','mango']
-# input2: [0, 2]
+
+# input1 = ['banana','coconut','mango']
+# input2 = [0, 2]
+# def reverse(arr):
+#     res = ""
+#     for i in range(len(arr)):
+#         res+=arr[-(i+1)]
+#     return res
+# for i in range(len(input1)):
+#     if i in input2:
+#         input1[i] = reverse(input1[i])
+# print(input1)
+
 # output:
 # ['ananab','coconut','ognam']
 # ------------
